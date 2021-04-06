@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>You Draw It: What Got Better or Worse During Trump's Presidency</title>
+    </head>
+    <body>
+        <h1>Under President Trump, the <br>unemployment rate</b> was ...</h1>
+        <div id = "chart_1"></div>        
+        <style>
+            svg {
+                overflow: visible;
+            }
+            .area {
+                fill: #eee;
+            }
+            .line {
+                fill: none;
+                stroke: black;
+                stroke-width: 3;
+            }    
+            .your-line{
+                stroke: rgb(57, 147, 232);
+                stroke-width: 3;
+                stroke-dasharray: 5 1;
+            }
+        </style>
+    </body>
+    <!-- Load D3 Package -->
+    <script src = "JavaScript/d3v4.js"></script>
+    <!-- Load JavaScript Code -->
+    <script src = "my_Script.js"></script>
+</html>
